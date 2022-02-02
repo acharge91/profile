@@ -1,0 +1,121 @@
+body {
+    background-color: #dfe5f9;
+}
+.container {
+  background-color:#dfe5f9;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.heading {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  text-align: center;
+  color: #4D5382;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  margin-bottom: 25px;
+  margin-top: 4px;
+  text-align: center;
+  color: #4D5382;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: large;
+}
+
+p {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:rgb(133, 143, 153)
+}
+
+button {
+  color: #f5f6f9;
+  background-color: #FE654F;
+  height: 30px;
+  border-radius: 6px;
+  border: #FE654F;
+  box-shadow: 2px 5px 10px #a4a2a2;
+}
+
+ul {
+  padding: 0;
+}
+
+button:hover {
+  color: #FE654F;
+  background-color: #f5f6f9;
+  height: 30px;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 2px;
+  list-style: none;
+
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #4D5382;
+}
+
+i {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #FE654F;
+  font-size: 50px;
+  box-shadow: 2px 5px 10px #a4a2a2;
+  height: 47px;
+  border-radius: 5px;
+}
+
+i:hover {
+  text-align: center;
+  color: #4D5382;
+  font-size: 50px;
+  box-shadow: none;
+}
+
+.card {
+  background-color: whitesmoke;
+  text-align: center;
+  padding-right: 250px;
+  padding-left: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 3% auto;
+  width: 25%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 5px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
